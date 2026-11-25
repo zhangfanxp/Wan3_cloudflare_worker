@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wan-video-product",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-25",
+  "routes": [{ "pattern": "video.frank1994.cc.cd", "custom_domain": true }],
+  "assets": { "directory": "./public", "binding": "ASSETS" },
+  "d1_databases": [{ "binding": "DB", "database_name": "wan-video-product", "database_id": "30150807-6ecd-4b95-bb44-146d191c33c4" }],
+  "r2_buckets": [{ "binding": "VIDEOS", "bucket_name": "wan-video-product-videos" }
+  ]
+}

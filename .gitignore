@@ -1,6 +1,7 @@
 .env
 .env.*
 !.env.example
+.dev.vars
 user.json
 operation_log.csv
 operation_log_*.xlsx
@@ -9,5 +10,6 @@ venv/
 __pycache__/
 *.py[cod]
 .DS_Store
+.wrangler/
 generated_videos/
 logs/
